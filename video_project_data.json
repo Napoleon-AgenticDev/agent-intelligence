@@ -1,0 +1,70 @@
+{
+  "video_project": {
+    "name": "Agent Alchemy Promo Video",
+    "created": "2026-04-10",
+    "duration": "70 seconds",
+    "purpose": "Promotional video for Agent Alchemy (sequenzia/agent-alchemy)"
+  },
+  "skills_used": [
+    {
+      "name": "research",
+      "description": "Research Agent Alchemy repository on GitHub",
+      "prompt": "Search GitHub for agent alchemy, find features, capabilities"
+    },
+    {
+      "name": " copywriting",
+      "description": "Write promotional script",
+      "prompt": "Create engaging 60-second voiceover about Agent Alchemy"
+    },
+    {
+      "name": "text-to-speech",
+      "description": "Convert script to audio using ElevenLabs",
+      "prompt": "Generate professional voiceover from script"
+    },
+    {
+      "name": "video-production",
+      "description": "Create video frames with text overlays",
+      "prompt": "Generate synchronized frames with scene management"
+    },
+    {
+      "name": "video-editing",
+      "description": "Combine frames + audio into final video",
+      "prompt": "Render final MP4 with FFmpeg"
+    }
+  ],
+  "agents_used": [
+    "agent-researcher",
+    "agent-coder",
+    "agent-swarm"
+  ],
+  "automation_suggestions": [
+    {
+      "trigger": "script.md updated",
+      "action": "Auto-generate voiceover",
+      "tool": "GitHub Actions"
+    },
+    {
+      "trigger": "voiceover.mp3 created",
+      "action": "Auto-create video",
+      "tool": "FFmpeg + Python"
+    },
+    {
+      "trigger": "video render complete",
+      "action": "Auto-push to GitHub",
+      "tool": "GitHub CLI"
+    },
+    {
+      "trigger": "push to main",
+      "action": "Social media posting",
+      "tool": "Buffer API / Twitter API"
+    }
+  ],
+  "timeline": {
+    "research": "5 min",
+    "script_writing": "10 min",
+    "voiceover_generation": "30 sec",
+    "video_creation": "5 min",
+    "upload": "1 min",
+    "total": "~20 minutes"
+  }
+}
