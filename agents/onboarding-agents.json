@@ -1,0 +1,45 @@
+[
+  {
+    "name": "HR Onboarding Agents",
+    "description": "Automated employee onboarding with tool provisioning, training assignment",
+    "capabilities": ["checklist_generation", "tool_provisioning", "training_assignment", "progress_tracking", "reminders"],
+    "tools_integrated": ["Slack", "Google Workspace", "GitHub", "Notion", "BambooHR", "Deel"],
+    "stats": {
+      "tools_auto_provisioned": 12,
+      "time_to_productivity_reduction": "18 to 11 days",
+      "example": "Deel"
+    }
+  },
+  {
+    "name": "Client Onboarding AI",
+    "description": "AI-powered client onboarding with compliance and workflow orchestration",
+    "capabilities": ["kyc_validation", "document_collection", "workflow_orchestration", "welcome_personalization", "escalation_handling"],
+    "stats": {
+      "onboarding_time_reduction": "10 days to 48 hours",
+      "activation_rate": "37.5% (62.5% drop-off without AI)"
+    },
+    "tech": ["RAG", "Knowledge Graph", "80% hallucination reduction"]
+  },
+  {
+    "name": "Repository Onboarding",
+    "description": "Codebase onboarding for new developers with AI assistance",
+    "capabilities": ["code_exploration", "environment_setup", "documentation_generation", "task_suggestion"],
+    "tools": ["GitHub Copilot", "OpenAI Codex"]
+  },
+  {
+    "name": "Startup Operations Agents",
+    "description": "Multi-agent systems for startup operational automation",
+    "areas": ["sales_pipeline", "customer_support", "finance_reconciliation", "hr_onboarding", "content_operations"],
+    "stats": {
+      "hours_saved_per_week": 36,
+      "annual_savings": 142000,
+      "automation_level": "60-70%"
+    }
+  },
+  {
+    "name": "Arahi AI (GitHub Integration)",
+    "description": "AI agents for GitHub workflow automation including onboarding",
+    "capabilities": ["employee_onboarding", "lead_qualification", "customer_onboarding", "data_entry", "workflow_automation"],
+    "github_actions": ["accept_repo_invitation", "add_email_auth", "manage_team_membership", "add_collaborators"]
+  }
+]

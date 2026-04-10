@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Claude Marketing",
+    "url": "https://github.com/thatrebeccarae/claude-marketing",
+    "skills": 56,
+    "description": "Full marketing department for Claude Code with skills for Klaviyo, Shopify, GA4, paid media",
+    "categories": ["paid_media", "ecommerce", "content", "seo", "analytics", "strategy"],
+    "tools": ["Claude Code", "Cursor", "Aider", "Windsurf", "GitHub Copilot", "Gemini CLI"]
+  },
+  {
+    "name": "AdClaw",
+    "url": "https://github.com/Citedy/adclaw",
+    "skills": 118,
+    "description": "Multi-agent AI marketing team with 118 built-in skills, 22 LLM providers",
+    "capabilities": ["seo", "ads", "content", "social_media", "analytics", "video_shorts"],
+    "language": "Python"
+  },
+  {
+    "name": "Marketing Skills (Corey Haines)",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "description": "SaaS marketing stack skills for conversion optimization, copywriting, SEO",
+    "skills": ["page-cro", "signup-flow-cro", "onboarding-cro", "copywriting", "seo-audit", "ai-seo", "email-sequence", "pricing-strategy"]
+  },
+  {
+    "name": "Opensoul",
+    "url": "https://github.com/iamevandrake/opensoul",
+    "description": "Open-source agentic marketing stack with 6 marketing roles",
+    "roles": ["director", "strategist", "creative", "producer", "growth", "analyst"],
+    "features": ["autonomous_execution", "goal_campaigns", "budget_control", "multi_channel"]
+  },
+  {
+    "name": "GTM Skills",
+    "url": "https://github.com/gtm-skills/gtm",
+    "description": "Open-Source Operating System for Agentic GTM with 300+ prompts",
+    "capabilities": ["research", "outreach", "crm", "sales_methodologies", "mcp_server"]
+  },
+  {
+    "name": "Agent GTM Skills",
+    "url": "https://github.com/chadboyda/agent-gtm-skills",
+    "skills": 18,
+    "lines": 9800,
+    "description": "18 AI agent skills for go-to-market - positioning, pricing, outbound, inbound"
+  },
+  {
+    "name": "ruflo/agent-project-board-sync",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-project-board-sync",
+    "description": "Project board synchronization and task management for marketing campaigns",
+    "capabilities": ["kanban_sync", "task_tracking", "milestone_management", "campaign_tracking"]
+  }
+]

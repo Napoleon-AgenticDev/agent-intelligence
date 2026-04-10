@@ -1,0 +1,49 @@
+[
+  {
+    "name": "AI Sales Team Claude",
+    "url": "https://github.com/zubair-trabzada/ai-sales-team-claude",
+    "skills": 14,
+    "agents": 5,
+    "description": "AI-powered sales team for Claude Code - research, qualify, outreach, proposals",
+    "capabilities": ["prospect_research", "lead_qualification", "decision_maker_mapping", "outreach_sequences", "meeting_prep", "proposals", "pdf_reports"],
+    "qualification_methods": ["BANT", "MEDDIC"]
+  },
+  {
+    "name": "SalesGPT",
+    "url": "https://github.com/filip-michalsky/SalesGPT",
+    "description": "Context-aware AI Sales Agent for voice, email, SMS automation",
+    "capabilities": ["stage_awareness", "product_knowledge", "stripe_integration"],
+    "channels": ["voice", "email", "sms", "whatsapp", "wechat"]
+  },
+  {
+    "name": "AI CRM Agents",
+    "url": "https://github.com/KlementMultiverse/ai-crm-agents",
+    "agents": 6,
+    "description": "Production-ready CRM with 6 autonomous agents",
+    "agents_list": ["lead_qualification", "email_intelligence", "sales_pipeline", "customer_success", "meeting_scheduler", "analytics"],
+    "tech_stack": ["FastAPI", "PostgreSQL", "Redis", "LangChain", "Claude", "GPT-4"]
+  },
+  {
+    "name": "GTM Skills",
+    "url": "https://github.com/gtm-skills/gtm",
+    "prompts": 300,
+    "description": "Open-Source Operating System for Agentic GTM and sales",
+    "methodologies": ["MEDDPICC", "SPIN", "Challenger", "Gap Selling", "Value Selling", "Sandler"],
+    "mcp_tools": ["research_company", "research_lead", "draft_cold_email", "handle_objection", "generate_cold_call_script"]
+  },
+  {
+    "name": "Radiant AI CRM",
+    "url": "https://github.com/dylanmeyford/radiant-ai-crm-oss",
+    "description": "Open-source AI CRM that works autonomously in background",
+    "features": ["pipeline_analysis", "action_drafting", "deal_forwarding", "stripe_integration", "email_calendar"],
+    "tech_stack": ["TypeScript", "Express", "MongoDB", "Nylas", "OpenAI"]
+  },
+  {
+    "name": "NexusAI",
+    "url": "https://github.com/MDalamin5/NexusAI-Agentic-Sales-Campaign-CRM",
+    "agents": 6,
+    "description": "Agentic CRM powered by LangGraph for lead scoring, enrichment, outreach",
+    "agents_list": ["lead_scorer", "persona_enricher", "outreach_drafter", "email_sender", "response_categorizer", "campaign_summarizer"],
+    "tech_stack": ["LangGraph", "LangChain", "Groq", "OpenAI", "FastAPI", "Docker"]
+  }
+]

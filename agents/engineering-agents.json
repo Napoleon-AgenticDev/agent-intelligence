@@ -1,0 +1,126 @@
+[
+  {
+    "name": "SWE-agent",
+    "url": "https://github.com/swe-agent/swe-agent",
+    "stars": 18958,
+    "description": "Autonomous GitHub issue fixer using LLMs",
+    "capabilities": ["code_fixing", "cybersecurity", "benchmark_testing"],
+    "language": "Python",
+    "license": "MIT"
+  },
+  {
+    "name": "mini-swe-agent",
+    "url": "https://github.com/SWE-agent/mini-swe-agent",
+    "stars": 3615,
+    "description": "Minimal 100-line coding agent, >74% on SWE-bench",
+    "capabilities": ["cli_tool", "local_execution", "high_benchmark"],
+    "language": "Python",
+    "license": "MIT"
+  },
+  {
+    "name": "Docker Agent",
+    "url": "https://github.com/docker/cagent",
+    "stars": 2786,
+    "description": "AI Agent Builder and Runtime with declarative YAML",
+    "capabilities": ["multi_agent", "mcp_tools", "rag", "oci_registry"],
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "OpenAI Codex",
+    "url": "https://github.com/openai/codex",
+    "description": "Lightweight coding agent in terminal",
+    "capabilities": ["cli", "agent_skills", "full_pipeline"],
+    "language": "Multiple",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "AI coding assistant with agent mode",
+    "capabilities": ["agent_mode", "custom_agents", "skills", "mcp"],
+    "license": "Proprietary"
+  },
+  {
+    "name": "ruflo/agent-coder",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-coder",
+    "description": "Senior software engineer for clean, maintainable code implementation",
+    "capabilities": ["code_generation", "refactoring", "optimization", "api_design", "tdd"],
+    "features": ["SOLID principles", "memory coordination", "MCP tools", "test-first"]
+  },
+  {
+    "name": "ruflo/agent-code-analyzer",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-code-analyzer",
+    "description": "Code analysis and quality assessment",
+    "capabilities": ["static_analysis", "pattern_detection", "security_scan"]
+  },
+  {
+    "name": "ruflo/agent-reviewer",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-reviewer",
+    "description": "Code review and feedback specialist",
+    "capabilities": ["pr_review", "style_check", "best_practices"]
+  },
+  {
+    "name": "ruflo/agent-tester",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-tester",
+    "description": "Testing specialist for unit, integration, e2e tests",
+    "capabilities": ["unit_tests", "integration_tests", "e2e_tests", "coverage"]
+  },
+  {
+    "name": "ruflo/agent-specification",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-specification",
+    "description": "Requirements and specification creation",
+    "capabilities": ["req_gathering", "user_stories", "technical_specs"]
+  },
+  {
+    "name": "ruflo/agent-architecture",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-architecture",
+    "description": "System architecture design and patterns",
+    "capabilities": ["design_patterns", "system_design", "tech_stack"]
+  },
+  {
+    "name": "ruflo/agent-sandbox",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-sandbox",
+    "description": "Sandboxed code execution environment",
+    "capabilities": ["safe_execution", "isolation", "resource_limits"]
+  },
+  {
+    "name": "ruflo/agent-security-manager",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-security-manager",
+    "description": "Security analysis and vulnerability detection",
+    "capabilities": ["vuln_scan", "secure_coding", "compliance"]
+  },
+  {
+    "name": "ruflo/agent-ops-cicd-github",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-ops-cicd-github",
+    "description": "CI/CD pipeline management via GitHub Actions",
+    "capabilities": ["pipeline_setup", "deployment", "workflows"]
+  },
+  {
+    "name": "ruflo/agent-release-manager",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-release-manager",
+    "description": "Release orchestration and versioning",
+    "capabilities": ["versioning", "changelog", "deployment_rollback"]
+  },
+  {
+    "name": "ruflo/agent-performance-analyzer",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-performance-analyzer",
+    "description": "Performance profiling and optimization",
+    "capabilities": ["profiling", "bottleneck_detection", "optimization"]
+  },
+  {
+    "name": "ruflo/agent-workflow-automation",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-workflow-automation",
+    "description": "GitHub Actions workflow automation with self-healing CI/CD pipelines",
+    "capabilities": ["pipeline_creation", "smart_test_selection", "deployment_risk_analysis", "performance_monitoring"],
+    "features": ["multi_agent_coordination", "adaptive_testing", "self_healing", "cost_optimization"]
+  },
+  {
+    "name": "ruflo/agent-swarm",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-swarm",
+    "description": "AI swarm orchestration for cloud platform multi-agent systems",
+    "capabilities": ["swarm_init", "agent_spawn", "task_orchestration", "dynamic_scaling"],
+    "topologies": ["hierarchical", "mesh", "ring", "star"],
+    "agent_types": ["researcher", "coder", "analyst", "optimizer", "coordinator"]
+  }
+]

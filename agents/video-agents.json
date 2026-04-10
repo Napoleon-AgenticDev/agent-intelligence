@@ -1,0 +1,48 @@
+[
+  {
+    "name": "AgentCut",
+    "url": "https://github.com/calderbuild/agentcut",
+    "stars": 35,
+    "agents": 6,
+    "description": "Multi-Agent AI Video Production Pipeline with parallel execution",
+    "agents_list": ["director", "script", "visual", "voice", "music", "editor"],
+    "tech_stack": ["MiniMax M1", "Hailuo 2.3", "Speech-2.6-HD", "Music-2.0", "ffmpeg"]
+  },
+  {
+    "name": "OpenMontage",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "stars": 732,
+    "pipelines": 11,
+    "tools": 49,
+    "skills": 400,
+    "description": "World's first open-source agentic video production system",
+    "stages": ["research", "proposal", "script", "scene_plan", "assets", "edit", "compose"]
+  },
+  {
+    "name": "AITuber Skill",
+    "url": "https://github.com/aituberapp/ai-video-skill",
+    "description": "AI video creation for YouTube Shorts, TikTok, Instagram Reels",
+    "capabilities": ["1300+ voices", "video_generation", "narration", "captions", "publishing"],
+    "platforms": ["YouTube", "TikTok", "Instagram"]
+  },
+  {
+    "name": "VideoDB Skills",
+    "url": "https://github.com/video-db/skills",
+    "stars": 48,
+    "description": "Server-side video workflows - ingest, understand, search, edit, stream",
+    "capabilities": ["realtime_capture", "indexing", "transcription", "editing", "hls_export"]
+  },
+  {
+    "name": "AI Video Producer Skill",
+    "url": "https://github.com/zysilm-ai/ai-video-producer-skill",
+    "description": "Local video generation using WAN 2.2 and ComfyUI",
+    "features": ["100% local", "fast_generation", "low_vram"]
+  },
+  {
+    "name": "ruflo/agent-data-ml-model",
+    "url": "https://github.com/buildmotion/ruflo/tree/main/.agents/skills/agent-data-ml-model",
+    "description": "Machine learning model development, training, and deployment",
+    "capabilities": ["data_preprocessing", "model_selection", "training", "evaluation", "deployment_prep"],
+    "workflow": ["data_analysis", "preprocessing", "model_development", "evaluation", "deployment"]
+  }
+]
